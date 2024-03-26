@@ -1,6 +1,6 @@
 //Student grade generator
 
-  //const grade =80
+  const grade =80
 
   function studentGradeGenerator(grade){
     if (grade> 79) {
