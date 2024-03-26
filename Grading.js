@@ -20,4 +20,4 @@
         //returns grade E if below 40
     }
 } 
-   //console.log(studentGradeGenerator(grade) )
+   console.log(studentGradeGenerator(grade) )
