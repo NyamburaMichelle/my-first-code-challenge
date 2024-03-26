@@ -1,18 +1,17 @@
 // Checks on car speed
 
-
-const speed =1000
+const speed =100
+    let difference=(speed-70)/5
 
 function speedDetector(speed) {
-    let difference=(speed-7)/5
     if (speed<= 70) {
         console.log("OK")
-    }else if (speed>70 && speed<130) {
+    }else if (speed>70 && speed<=130) {
         console.log(`Points: ${(speed-70)/5}`)
-        //12 points are exceeded at a speed above 130
     }else if (difference>12) {
         console.log("License suspended")
     }
 }
-
+//12 points are reached when the speed is at 130
 speedDetector(speed)
+
